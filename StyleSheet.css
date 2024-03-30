@@ -20,8 +20,10 @@ section div {
     background-color: lightgray;
     width: 1fr;
     height: calc(24 * 1vw);
-    margin-left: calc(1.1vw);
-    margin-right: calc(1.1vw);
+    margin-top: calc(0.5vw);
+    margin-left: calc(0.5vw);
+    margin-right: calc(0.5vw);
+    margin-bottom: calc(0.5vw);
     border: 2px solid;
     border-radius: 10px;
 }
