@@ -4,7 +4,7 @@ body {
 
 .header {
     font-family: Arial;
-    font-size: 60px;
+    font-size: calc(2.5vw);
     font-weight: bold;
     text-align: center;
 }
@@ -16,15 +16,15 @@ section.project-preview {
     grid-template-columns: 25% 25% 25% 25%;
 }
 
-    section div {
-        background-color: lightgray;
-        width: 1fr;
-        height: 600px;
-        margin-left: 20px;
-        margin-right: 20px;
-        border: 2px solid;
-        border-radius: 10px;
-    }
+section div {
+    background-color: lightgray;
+    width: 1fr;
+    height: calc(24 * 1vw);
+    margin-left: calc(1.1vw);
+    margin-right: calc(1.1vw);
+    border: 2px solid;
+    border-radius: 10px;
+}
 
 .image-holder {
     vertical-align: top;
@@ -32,7 +32,7 @@ section.project-preview {
     max-height: 50%;
     align-content: center;
     border: none;
-    margin-top: 10px;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -47,19 +47,19 @@ img {
 
 .preview-header {
     font-family: Arial;
-    font-size: calc(1.5 * 1vw);
+    font-size: calc(1.5vw);
     font-weight: bold;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: auto;
+    margin-top: calc(0.5vw);
+    margin-bottom: calc(0.5vw);
 }
 
 .preview-paragraph {
     font-family: Arial;
-    font-size: calc(1.3 * 1vw);
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: calc(1.3vw);
+    margin-top: auto;
+    margin-left: calc(1vw);
+    margin-right: calc(1vw);
 }
 
 .button-holder {
@@ -67,9 +67,10 @@ img {
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
-    height: 60px;
+    height: calc(2vw);
 }
 
 button {
@@ -85,7 +86,7 @@ button {
     transition: width 0.25s ease, height 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
     font-family: Arial;
     white-space: normal;
-    height: 50px;
+    height: calc(2vw);
 }
 
     button:hover {
@@ -95,11 +96,11 @@ button {
     }
 
 .smallbutton {
-    width: calc(8 * 1vw);
+    width: calc(10vw);
 }
 
 .bigbutton {
-    width: calc(16 * 1vw);
+    width: calc(16vw);
 }
 
 section.models {
@@ -114,7 +115,7 @@ section.models {
         background-color: darkgray;
         vertical-align: top;
         width: 1fr;
-        height: calc(22*1vw);
+        height: calc(22vw);
         align-content: center;
         margin-top: 10px;
         margin-left: auto;
@@ -134,7 +135,7 @@ section.trash-can {
         background-color: darkgray;
         vertical-align: top;
         width: 1fr;
-        height: calc(22*1vw);
+        height: calc(22vw);
         align-content: center;
         margin-top: 10px;
         margin-left: auto;
