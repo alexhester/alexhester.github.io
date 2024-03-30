@@ -77,9 +77,9 @@ button {
     background-color: lightgray;
     color: rebeccapurple;
     border-style: solid;
-    border-radius: 60px;
+    border-radius: 10px;
     border-color: rebeccapurple;
-    border-width: 3px;
+    border-width: 2px;
     cursor: pointer;
     font-size: calc(1vw);
     font-weight: bold;
