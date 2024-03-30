@@ -57,9 +57,10 @@ img {
 .preview-paragraph {
     font-family: Arial;
     font-size: calc(1.3vw);
-    margin-top: auto;
-    margin-left: calc(1vw);
-    margin-right: calc(1vw);
+    margin-top: calc(0.5vw);
+    margin-left: calc(0.5vw);
+    margin-right: calc(0.5vw);
+    margin-bottom: calc(0.5vw);
 }
 
 .button-holder {
