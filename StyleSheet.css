@@ -123,7 +123,7 @@ section.models {
         border: none;
     }
 
-section.trash-can {
+section.pictures3by {
     display: grid;
     grid-template-rows: auto;
     margin: 2vw 0 0 0;
@@ -131,7 +131,26 @@ section.trash-can {
     border: none;
 }
 
-    section.trash-can div {
+    section.pictures3by div {
+        background-color: darkgray;
+        vertical-align: top;
+        width: 1fr;
+        height: calc(22vw);
+        align-content: center;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+
+section.pictures4by {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 2vw 0 0 0;
+    grid-template-columns: 25% 25% 25% 25%;
+    border: none;
+}
+    section.pictures4by div {
         background-color: darkgray;
         vertical-align: top;
         width: 1fr;
