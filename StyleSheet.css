@@ -16,7 +16,7 @@ section.project-preview {
     grid-template-columns: 25% 25% 25% 25%;
 }
 
-section div {
+section.project-preview div {
     background-color: lightgray;
     width: 1fr;
     height: calc(25 * 1vw);
@@ -123,7 +123,7 @@ section.models {
         border: none;
     }
 
-section.pictures3by {
+section.picturesthree {
     display: grid;
     grid-template-rows: auto;
     margin: 2vw 0 0 0;
@@ -131,7 +131,7 @@ section.pictures3by {
     border: none;
 }
 
-    section.pictures3by div {
+    section.picturesthree div {
         background-color: darkgray;
         vertical-align: top;
         width: 1fr;
@@ -143,14 +143,15 @@ section.pictures3by {
         border: none;
     }
 
-section.pictures4by {
+section.picturesfour {
     display: grid;
     grid-template-rows: auto;
     margin: 2vw 0 0 0;
     grid-template-columns: 25% 25% 25% 25%;
     border: none;
 }
-    section.pictures4by div {
+
+    section.picturesfour div {
         background-color: darkgray;
         vertical-align: top;
         width: 1fr;
