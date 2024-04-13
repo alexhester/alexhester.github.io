@@ -16,7 +16,7 @@ section.project-preview {
     grid-template-columns: 25% 25% 25% 25%;
 }
 
-section.project-preview div {
+section div {
     background-color: lightgray;
     width: 1fr;
     height: calc(25 * 1vw);
