@@ -142,3 +142,43 @@ section.threewide {
         margin-right: auto;
         border: none;
     }
+
+section.descriptive {
+    background-color: darkgray;
+    display: grid;
+    gap: 20px;
+    margin: 0 0 calc(5vw) 0;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    border: none;
+}
+    div.first-image {
+        background-color: darkgray;
+        margin: 0 0 0 0;
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+
+    div.descriptive-images {
+        background-color: darkgray;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        margin: 0 0 0 0;
+        height: auto;
+        gap: 10px;
+        border: none;
+    }
+
+    div.descriptive-text {
+        background-color: lightgray;
+        margin: calc(1vw) calc(1vw) 0 0;
+        height: fit-content;
+        font-family: Arial;
+        font-size: calc(1.3vw);
+    }
+
+    div.descriptive-text p {
+        margin: calc(0.5vw);
+    }
