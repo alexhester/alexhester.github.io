@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Alex Hester: Boost Converter</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+    <section class="descriptive">
+        <div class="first-image">
+            <img src="Projects/Boost Converter/1.jpg" />
+            <img src="Projects/Boost Converter/sch.PNG" />
+        </div>
+        <div class="descriptive-text">
+            <p>
+                I made this boost converter circuit to boost 3.0V - 4.2V LiPo batteries to between 3.7V and 15.2V at high currents.
+                It is built around the UC3843AN pwm controller.
+                The UC3843 requires 8.4V to 30V to operate so I have an additional MT3608 boost converter onboard to supply 9V to VCC.
+                The PDP6902 N-Mosfet, HS060H006 schottky diode, and 400 uH inductor were salvaged from damaged ATX computer power supplies.
+                I made a custom 0.1 Ohm wire-wound resistor connected to the UC3843's current sense input to limit the current to ~10 amps.
+                I used values for of 5.1 kOhm for Rt and 730pF for Ct to produce a frequency of around 300 kHz for the UC3843.
+                My converter lacked a soft-start circuit which caused issues if I had multiple high current LiPo batteries in parallel connected to the input.
+                I solved this by creating an external soft-start circuit and writing some code. This soft-start circuit consists of a 0.3 Ohm power resistor and another PDP6902 N-Mosfet, and is connected in between the converter and ground.
+                When power is first turned on, the converters input current is limited by the power resistor, and after a one second delay, my microcontroller sends power to the mosfet's gate to short the resistor, allowing higher current to flow.
+            </p>
+        </div>
+        <div class="descriptive-images">
+            <img src="Projects/Boost Converter/2.jpg" />
+            <img src="Projects/Boost Converter/3.jpg" />
+            <img src="Projects/Boost Converter/4.jpg" />
+            <img src="Projects/Boost Converter/5.jpg" />
+        </div>
+        <div class="first-image">
+            <img src="Projects/Boost Converter/soft.jpg" />
+        </div>
+    </section>
+</body>
+</html>
