@@ -103,15 +103,15 @@ button {
     width: calc(16vw);
 }
 
-section.fourwide {
+section.twowide {
     display: grid;
     grid-template-rows: auto;
     margin: 2vw 0 0 0;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
     border: none;
 }
 
-    section.fourwide div {
+    section.twowide div {
         background-color: darkgray;
         vertical-align: top;
         width: 1fr;
@@ -132,6 +132,46 @@ section.threewide {
 }
 
     section.threewide div {
+        background-color: darkgray;
+        vertical-align: top;
+        width: 1fr;
+        height: calc(22vw);
+        align-content: center;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+
+section.fourwide {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 2vw 0 0 0;
+    grid-template-columns: 25% 25% 25% 25%;
+    border: none;
+}
+
+    section.fourwide div {
+        background-color: darkgray;
+        vertical-align: top;
+        width: 1fr;
+        height: calc(22vw);
+        align-content: center;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+
+section.fivewide {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 2vw 0 0 0;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    border: none;
+}
+
+    section.fivewide div {
         background-color: darkgray;
         vertical-align: top;
         width: 1fr;
